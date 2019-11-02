@@ -16,6 +16,8 @@ public interface Operation<E extends UserBase> {
 
     Collection<E> getTwoUsersStartingFromSecond(Collection<E> entities);
 
+    Collection<E> getAllElementsByTemplate(Collection<E> entities, E template);
+
     boolean isCharacterPresentInAllNames(Collection<E> entities,String character);
 
     Collection<E> addValueToAllNames(Collection<E> entities,String value);

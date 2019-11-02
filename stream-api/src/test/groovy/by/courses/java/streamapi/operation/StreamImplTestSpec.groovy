@@ -6,6 +6,7 @@ import by.courses.java.streamapi.operation.Operation
 import spock.lang.Shared
 import spock.lang.Specification
 
+
 class StreamImplTestSpec extends Specification {
 
     @Shared

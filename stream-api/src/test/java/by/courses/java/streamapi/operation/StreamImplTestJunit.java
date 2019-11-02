@@ -29,6 +29,7 @@ class StreamImplTestJunit {
     @Test
     void removeWithMaxAge() {
         Collection<UserBase> userBasesWithoutMaxAge = defaultStream.removeWithMaxAge(this.userBases);
+
         assertEquals(userBasesWithoutMaxAge.size(), this.userBases.size() - 2);
     }
 
