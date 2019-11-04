@@ -13,15 +13,15 @@ public class UserBase {
 
     private int age;
 
- public UserBase(String name,int age){
+ /*public UserBase(String name, int age){
      this.name = name;
      this.age = age;
-    }
+    }*/
 
-    public static UserBase of(String s, int age) {
+    /*public static UserBase of(String s, int age) {
      return new UserBase(s,age);
     }
-
+*/
     public String getName() {
         return name;
     }
